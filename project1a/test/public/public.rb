@@ -65,10 +65,12 @@ class PublicTests < MiniTest::Test
         assert_equal(true, @phonebook.add("Jane", "220-134-1312", true))
         assert_equal(true, @phonebook.add("Jack", "114-192-1862", false))
         assert_equal(true, @phonebook.add("Jessie", "410-124-1131", true))
+        assert_equal(false, @phonebook.add("Ravi", "110", true))
         assert_nil(@phonebook.lookup("John"))
         assert_nil(@phonebook.lookup("Jack"))
         assert_equal("220-134-1312", @phonebook.lookup("Jane"))
         assert_equal("410-124-1131", @phonebook.lookup("Jessie"))
+        assert_nil(@phonebook.lookup("Ravi"))
     end
 
     def test_public_phonebook_lookup_by_num
