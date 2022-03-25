@@ -1,0 +1,24 @@
+2022-03-07T20:26:26+00:00 Sho#02 I: Start test public:1:test_count_occ_out_len.
+2022-03-07T20:26:26+00:00 Sho#02 I: 
+2022-03-07T20:26:26+00:00 Sho#02 I: law test_count_occ_out_len: 1000 relevant cases (1000 total)
+2022-03-07T20:26:26+00:00 Sho#02 I: 
+2022-03-07T20:26:26+00:00 Sho#02 I: Test public:1:test_count_occ_out_len is successful.
+2022-03-07T20:26:26+00:00 Sho#02 I: End test public:1:test_count_occ_out_len.
+2022-03-07T20:26:26+00:00 Sho#02 I: Start test public:8:test_int_insert_size_should_inc.
+2022-03-07T20:26:26+00:00 Sho#02 I: 
+2022-03-07T20:26:26+00:00 Sho#02 I: law test_int_insert_size_should_inc: 1000 relevant cases (1000 total)
+2022-03-07T20:26:26+00:00 Sho#02 I: 
+2022-03-07T20:26:26+00:00 Sho#02 I: Test public:8:test_int_insert_size_should_inc is successful.
+2022-03-07T20:26:26+00:00 Sho#02 I: End test public:8:test_int_insert_size_should_inc.
+2022-03-07T20:26:26+00:00 Sho#02 I: Start test public:10:test_int_mem_after_inserting .
+2022-03-07T20:26:26+00:00 Sho#02 I: 
+2022-03-07T20:26:26+00:00 Sho#02 I: law test_int_mem_after_inserting : 1000 relevant cases (1000 total)
+2022-03-07T20:26:26+00:00 Sho#02 I: 
+2022-03-07T20:26:26+00:00 Sho#02 I: Test public:10:test_int_mem_after_inserting  is successful.
+2022-03-07T20:26:26+00:00 Sho#02 I: End test public:10:test_int_mem_after_inserting .
+2022-03-07T20:26:26+00:00 Sho#02 I: Start test public:15:test_map_put_smaller_goes_left.
+2022-03-07T20:26:26+00:00 Sho#02 I: 
+2022-03-07T20:26:26+00:00 Sho#02 I: law test_map_put_smaller_goes_left: 1000 relevant cases (1000 total)
+2022-03-07T20:26:26+00:00 Sho#02 I: 
+2022-03-07T20:26:26+00:00 Sho#02 I: Test public:15:test_map_put_smaller_goes_left is successful.
+2022-03-07T20:26:26+00:00 Sho#02 I: End test public:15:test_map_put_smaller_goes_left.

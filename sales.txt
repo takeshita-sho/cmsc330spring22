@@ -1,0 +1,8 @@
+Fairfield, $2500
+Cape Cod, $4500
+Tudor, $0
+Victorian, $5300
+Cape Cod, $4000
+Colonial, $3000
+Fairfield, $2700
+Cape Cod, $3200

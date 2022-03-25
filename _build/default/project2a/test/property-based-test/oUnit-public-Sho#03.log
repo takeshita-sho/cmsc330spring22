@@ -1,0 +1,12 @@
+2022-03-05T15:27:12+00:00 Sho#03 I: Start test public:2:test_is_odd_odds.
+2022-03-05T15:27:12+00:00 Sho#03 I: 
+2022-03-05T15:27:12+00:00 Sho#03 I: law test_is_odd_odds: 10 relevant cases (10 total)
+2022-03-05T15:27:12+00:00 Sho#03 I: 
+2022-03-05T15:27:12+00:00 Sho#03 I: Test public:2:test_is_odd_odds is successful.
+2022-03-05T15:27:12+00:00 Sho#03 I: End test public:2:test_is_odd_odds.
+2022-03-05T15:27:12+00:00 Sho#03 I: Start test public:10:test_pow_twice.
+2022-03-05T15:27:12+00:00 Sho#03 I: 
+2022-03-05T15:27:12+00:00 Sho#03 I: law test_pow_twice: 30 relevant cases (30 total)
+2022-03-05T15:27:12+00:00 Sho#03 I: 
+2022-03-05T15:27:12+00:00 Sho#03 I: Test public:10:test_pow_twice is successful.
+2022-03-05T15:27:12+00:00 Sho#03 I: End test public:10:test_pow_twice.

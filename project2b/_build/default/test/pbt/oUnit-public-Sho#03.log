@@ -1,0 +1,24 @@
+2022-03-07T20:26:26+00:00 Sho#03 I: Start test public:2:test_count_occ_target_in_lst.
+2022-03-07T20:26:26+00:00 Sho#03 I: 
+2022-03-07T20:26:26+00:00 Sho#03 I: law test_count_occ_target_in_lst: 1000 relevant cases (1000 total)
+2022-03-07T20:26:26+00:00 Sho#03 I: 
+2022-03-07T20:26:26+00:00 Sho#03 I: Test public:2:test_count_occ_target_in_lst is successful.
+2022-03-07T20:26:26+00:00 Sho#03 I: End test public:2:test_count_occ_target_in_lst.
+2022-03-07T20:26:26+00:00 Sho#03 I: Start test public:9:test_int_insert_twice_size_same.
+2022-03-07T20:26:26+00:00 Sho#03 I: 
+2022-03-07T20:26:26+00:00 Sho#03 I: law test_int_insert_twice_size_same: 1000 relevant cases (1000 total)
+2022-03-07T20:26:26+00:00 Sho#03 I: 
+2022-03-07T20:26:26+00:00 Sho#03 I: Test public:9:test_int_insert_twice_size_same is successful.
+2022-03-07T20:26:26+00:00 Sho#03 I: End test public:9:test_int_insert_twice_size_same.
+2022-03-07T20:26:26+00:00 Sho#03 I: Start test public:13:test_map_contains_after_inserted.
+2022-03-07T20:26:26+00:00 Sho#03 I: 
+2022-03-07T20:26:26+00:00 Sho#03 I: law test_map_contains_after_inserted: 1000 relevant cases (1000 total)
+2022-03-07T20:26:26+00:00 Sho#03 I: 
+2022-03-07T20:26:26+00:00 Sho#03 I: Test public:13:test_map_contains_after_inserted is successful.
+2022-03-07T20:26:26+00:00 Sho#03 I: End test public:13:test_map_contains_after_inserted.
+2022-03-07T20:26:26+00:00 Sho#03 I: Start test public:16:test_add_var_single_scope.
+2022-03-07T20:26:26+00:00 Sho#03 I: 
+2022-03-07T20:26:26+00:00 Sho#03 I: law test_add_var_single_scope: 1000 relevant cases (1000 total)
+2022-03-07T20:26:26+00:00 Sho#03 I: 
+2022-03-07T20:26:26+00:00 Sho#03 I: Test public:16:test_add_var_single_scope is successful.
+2022-03-07T20:26:26+00:00 Sho#03 I: End test public:16:test_add_var_single_scope.

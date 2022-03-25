@@ -1,0 +1,12 @@
+2022-03-07T20:26:26+00:00 Sho#05 I: Start test public:4:test_uniq_out_len.
+2022-03-07T20:26:26+00:00 Sho#05 I: 
+2022-03-07T20:26:26+00:00 Sho#05 I: law test_uniq_out_len: 1000 relevant cases (1000 total)
+2022-03-07T20:26:26+00:00 Sho#05 I: 
+2022-03-07T20:26:26+00:00 Sho#05 I: Test public:4:test_uniq_out_len is successful.
+2022-03-07T20:26:26+00:00 Sho#05 I: End test public:4:test_uniq_out_len.
+2022-03-07T20:26:26+00:00 Sho#05 I: Start test public:12:test_int_max_inc.
+2022-03-07T20:26:26+00:00 Sho#05 I: 
+2022-03-07T20:26:26+00:00 Sho#05 I: law test_int_max_inc: 1000 relevant cases (1000 total)
+2022-03-07T20:26:26+00:00 Sho#05 I: 
+2022-03-07T20:26:26+00:00 Sho#05 I: Test public:12:test_int_max_inc is successful.
+2022-03-07T20:26:26+00:00 Sho#05 I: End test public:12:test_int_max_inc.

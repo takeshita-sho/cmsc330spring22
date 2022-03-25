@@ -1,0 +1,160 @@
+# dune runtest -f
+# OCAMLPARAM: unset
+# Workspace root: /mnt/c/WINDOWS/system32/cmsc330spring22
+$ /usr/bin/nproc > /tmp/dunea7fc39.output 2> /dev/null
+# Auto-detected concurrency: 16
+# disable binary cache
+$ /home/sho/.opam/4.12.0/bin/ocamlc.opt -config > /tmp/dune05c565.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = Some External "/home/sho/.opam/4.12.0/lib/toplevel"
+#  ; ocaml_bin = External "/home/sho/.opam/4.12.0/bin"
+#  ; ocaml = Ok External "/home/sho/.opam/4.12.0/bin/ocaml"
+#  ; ocamlc = External "/home/sho/.opam/4.12.0/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/home/sho/.opam/4.12.0/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/home/sho/.opam/4.12.0/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/home/sho/.opam/4.12.0/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/home/sho/.opam/4.12.0/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/home/sho/.opam/4.12.0/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/mnt/c/WINDOWS/system32/cmsc330spring22"
+#        ; "INSIDE_DUNE" :
+#            "/mnt/c/WINDOWS/system32/cmsc330spring22/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/mnt/c/WINDOWS/system32/cmsc330spring22/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/mnt/c/WINDOWS/system32/cmsc330spring22/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/mnt/c/WINDOWS/system32/cmsc330spring22/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/home/sho/.opam/4.12.0/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default = "/home/sho/.opam/4.12.0/lib/ocaml"
+#      ; standard_library = "/home/sho/.opam/4.12.0/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-ldl"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-ldl" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "as" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-pc-linux-gnu"
+#      ; target = "x86_64-pc-linux-gnu"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39 -g -bin-annot -I project2a/src/.basics.objs/byte -no-alias-deps -opaque -o project2a/src/.basics.objs/byte/basics.cmi -c -intf project2a/src/basics.mli)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I project2b/src/.p2b.objs/byte -no-alias-deps -opaque -o project2b/src/.p2b.objs/byte/p2b.cmo -c -impl project2b/src/p2b.ml-gen)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamldep.opt -modules -intf project2b/src/data.mli) > _build/default/project2b/src/.p2b.objs/data.mli.d
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamldep.opt -modules -impl project2b/src/data.ml) > _build/default/project2b/src/.p2b.objs/data.ml.d
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamldep.opt -modules -intf project2b/src/funs.mli) > _build/default/project2b/src/.p2b.objs/funs.mli.d
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamldep.opt -modules -impl project2b/src/funs.ml) > _build/default/project2b/src/.p2b.objs/funs.ml.d
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamldep.opt -modules -intf project2b/src/higher.mli) > _build/default/project2b/src/.p2b.objs/higher.mli.d
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamldep.opt -modules -impl project2b/src/higher.ml) > _build/default/project2b/src/.p2b.objs/higher.ml.d
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39 -g -I project2a/src/.basics.objs/byte -I project2a/src/.basics.objs/native -intf-suffix .ml -no-alias-deps -opaque -o project2a/src/.basics.objs/native/basics.cmx -c -impl project2a/src/basics.ml)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I project2b/src/.p2b.objs/byte -I project2b/src/.p2b.objs/native -intf-suffix .ml-gen -no-alias-deps -opaque -o project2b/src/.p2b.objs/native/p2b.cmx -c -impl project2b/src/p2b.ml-gen)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39-33-32 -g -bin-annot -I project2b/src/.p2b.objs/byte -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/stdlib-shims -no-alias-deps -opaque -open P2b -o project2b/src/.p2b.objs/byte/p2b__Data.cmi -c -intf project2b/src/data.mli)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39-33-32 -g -bin-annot -I project2b/src/.p2b.objs/byte -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/stdlib-shims -no-alias-deps -opaque -open P2b -o project2b/src/.p2b.objs/byte/p2b__Funs.cmi -c -intf project2b/src/funs.mli)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39-33-32 -g -bin-annot -I project2b/src/.p2b.objs/byte -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/stdlib-shims -no-alias-deps -opaque -open P2b -o project2b/src/.p2b.objs/byte/p2b__Higher.cmi -c -intf project2b/src/higher.mli)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39 -g -a -o project2a/src/basics.cmxa project2a/src/.basics.objs/native/basics.cmx)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39-33-32 -g -I project2b/src/.p2b.objs/byte -I project2b/src/.p2b.objs/native -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/stdlib-shims -intf-suffix .ml -no-alias-deps -opaque -open P2b -o project2b/src/.p2b.objs/native/p2b__Higher.cmx -c -impl project2b/src/higher.ml)
+> File "project2b/src/higher.ml", line 20, characters 50-52:
+> 20 |     fold (fun xs x -> if contains_elem xs x then [xs; 0] else [x; (count_occ lst x)]::xs) [] lst
+>                                                        ^^
+> Error: This expression has type 'a list
+>        but an expression was expected of type 'a
+>        The type variable 'a occurs inside 'a list
+[2]
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39-33-32 -g -I project2b/src/.p2b.objs/byte -I project2b/src/.p2b.objs/native -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/stdlib-shims -intf-suffix .ml -no-alias-deps -opaque -open P2b -o project2b/src/.p2b.objs/native/p2b__Funs.cmx -c -impl project2b/src/funs.ml)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39-33-32 -g -I project2b/src/.p2b.objs/byte -I project2b/src/.p2b.objs/native -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/stdlib-shims -intf-suffix .ml -no-alias-deps -opaque -open P2b -o project2b/src/.p2b.objs/native/p2b__Data.cmx -c -impl project2b/src/data.ml)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I project2b/test/.testUtils.objs/byte -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/stdlib-shims -I project2b/src/.p2b.objs/byte -no-alias-deps -opaque -o project2b/test/.testUtils.objs/byte/testUtils.cmo -c -impl project2b/test/testUtils.ml)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I project2a/test/property-based-test/.pbt.eobjs/byte -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/qcheck -I /home/sho/.opam/4.12.0/lib/qcheck-core -I /home/sho/.opam/4.12.0/lib/qcheck-core/runner -I /home/sho/.opam/4.12.0/lib/qcheck-ounit -I /home/sho/.opam/4.12.0/lib/stdlib-shims -I project2a/src/.basics.objs/byte -no-alias-deps -opaque -o project2a/test/property-based-test/.pbt.eobjs/byte/dune__exe__Pbt.cmo -c -impl project2a/test/property-based-test/pbt.ml)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I project2a/test/public/.public.eobjs/byte -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/stdlib-shims -I project2a/src/.basics.objs/byte -no-alias-deps -opaque -o project2a/test/public/.public.eobjs/byte/dune__exe__Public.cmo -c -impl project2a/test/public/public.ml)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -33 -g -bin-annot -I project2a/test/student/.student.eobjs/byte -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/stdlib-shims -I project2a/src/.basics.objs/byte -no-alias-deps -opaque -o project2a/test/student/.student.eobjs/byte/dune__exe__Student.cmo -c -impl project2a/test/student/student.ml)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I project2b/test/.testUtils.objs/byte -I project2b/test/.testUtils.objs/native -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/stdlib-shims -I project2b/src/.p2b.objs/byte -I project2b/src/.p2b.objs/native -intf-suffix .ml -no-alias-deps -opaque -o project2b/test/.testUtils.objs/native/testUtils.cmx -c -impl project2b/test/testUtils.ml)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I project2a/test/property-based-test/.pbt.eobjs/byte -I project2a/test/property-based-test/.pbt.eobjs/native -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/qcheck -I /home/sho/.opam/4.12.0/lib/qcheck-core -I /home/sho/.opam/4.12.0/lib/qcheck-core/runner -I /home/sho/.opam/4.12.0/lib/qcheck-ounit -I /home/sho/.opam/4.12.0/lib/stdlib-shims -I project2a/src/.basics.objs/byte -I project2a/src/.basics.objs/native -intf-suffix .ml -no-alias-deps -opaque -o project2a/test/property-based-test/.pbt.eobjs/native/dune__exe__Pbt.cmx -c -impl project2a/test/property-based-test/pbt.ml)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I project2a/test/public/.public.eobjs/byte -I project2a/test/public/.public.eobjs/native -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/stdlib-shims -I project2a/src/.basics.objs/byte -I project2a/src/.basics.objs/native -intf-suffix .ml -no-alias-deps -opaque -o project2a/test/public/.public.eobjs/native/dune__exe__Public.cmx -c -impl project2a/test/public/public.ml)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -33 -g -I project2a/test/student/.student.eobjs/byte -I project2a/test/student/.student.eobjs/native -I /home/sho/.opam/4.12.0/lib/bytes -I /home/sho/.opam/4.12.0/lib/oUnit -I /home/sho/.opam/4.12.0/lib/ounit2 -I /home/sho/.opam/4.12.0/lib/ounit2/advanced -I /home/sho/.opam/4.12.0/lib/stdlib-shims -I project2a/src/.basics.objs/byte -I project2a/src/.basics.objs/native -intf-suffix .ml -no-alias-deps -opaque -o project2a/test/student/.student.eobjs/native/dune__exe__Student.cmx -c -impl project2a/test/student/student.ml)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o project2b/test/testUtils.cmxa project2b/test/.testUtils.objs/native/testUtils.cmx)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o project2a/test/public/public.exe project2a/src/basics.cmxa /home/sho/.opam/4.12.0/lib/ocaml/unix.cmxa -I /home/sho/.opam/4.12.0/lib/ocaml /home/sho/.opam/4.12.0/lib/stdlib-shims/stdlib_shims.cmxa /home/sho/.opam/4.12.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/sho/.opam/4.12.0/lib/ounit2/oUnit.cmxa project2a/test/public/.public.eobjs/native/dune__exe__Public.cmx)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -33 -g -o project2a/test/student/student.exe project2a/src/basics.cmxa /home/sho/.opam/4.12.0/lib/ocaml/unix.cmxa -I /home/sho/.opam/4.12.0/lib/ocaml /home/sho/.opam/4.12.0/lib/stdlib-shims/stdlib_shims.cmxa /home/sho/.opam/4.12.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/sho/.opam/4.12.0/lib/ounit2/oUnit.cmxa project2a/test/student/.student.eobjs/native/dune__exe__Student.cmx)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o project2a/test/property-based-test/pbt.exe project2a/src/basics.cmxa /home/sho/.opam/4.12.0/lib/ocaml/unix.cmxa -I /home/sho/.opam/4.12.0/lib/ocaml /home/sho/.opam/4.12.0/lib/stdlib-shims/stdlib_shims.cmxa /home/sho/.opam/4.12.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/sho/.opam/4.12.0/lib/ounit2/oUnit.cmxa /home/sho/.opam/4.12.0/lib/qcheck-core/qcheck_core.cmxa /home/sho/.opam/4.12.0/lib/qcheck-core/runner/qcheck_runner.cmxa /home/sho/.opam/4.12.0/lib/qcheck-ounit/qcheck_ounit.cmxa /home/sho/.opam/4.12.0/lib/qcheck/qcheck.cmxa project2a/test/property-based-test/.pbt.eobjs/native/dune__exe__Pbt.cmx)
+$ (cd _build/default/project2a/test/public && ./public.exe)
+> ...............
+> Ran: 15 tests in: 0.15 seconds.
+> OK
+$ (cd _build/default/project2a/test/student && ./student.exe)
+> ......
+> Ran: 6 tests in: 0.13 seconds.
+> OK
+$ (cd _build/default/project2a/test/property-based-test && ./pbt.exe)
+> ............
+> Ran: 12 tests in: 0.66 seconds.
+> OK
