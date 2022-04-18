@@ -1,0 +1,18 @@
+2022-03-30T21:56:26+00:00 Sho#05 I: Start test public:4:test_uniq_out_len.
+2022-03-30T21:56:26+00:00 Sho#05 I: 
+2022-03-30T21:56:26+00:00 Sho#05 I: law test_uniq_out_len: 1000 relevant cases (1000 total)
+2022-03-30T21:56:26+00:00 Sho#05 I: 
+2022-03-30T21:56:26+00:00 Sho#05 I: Test public:4:test_uniq_out_len is successful.
+2022-03-30T21:56:26+00:00 Sho#05 I: End test public:4:test_uniq_out_len.
+2022-03-30T21:56:26+00:00 Sho#05 I: Start test public:13:test_map_contains_after_inserted.
+2022-03-30T21:56:26+00:00 Sho#05 I: 
+2022-03-30T21:56:26+00:00 Sho#05 I: law test_map_contains_after_inserted: 1000 relevant cases (1000 total)
+2022-03-30T21:56:26+00:00 Sho#05 I: 
+2022-03-30T21:56:26+00:00 Sho#05 I: Test public:13:test_map_contains_after_inserted is successful.
+2022-03-30T21:56:26+00:00 Sho#05 I: End test public:13:test_map_contains_after_inserted.
+2022-03-30T21:56:26+00:00 Sho#05 I: Start test public:16:test_add_var_single_scope.
+2022-03-30T21:56:26+00:00 Sho#05 I: 
+2022-03-30T21:56:26+00:00 Sho#05 I: law test_add_var_single_scope: 1000 relevant cases (1000 total)
+2022-03-30T21:56:26+00:00 Sho#05 I: 
+2022-03-30T21:56:26+00:00 Sho#05 I: Test public:16:test_add_var_single_scope is successful.
+2022-03-30T21:56:26+00:00 Sho#05 I: End test public:16:test_add_var_single_scope.

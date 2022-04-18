@@ -1,0 +1,12 @@
+2022-03-30T21:56:26+00:00 Sho#04 I: Start test public:3:test_count_occ_reversed_same.
+2022-03-30T21:56:26+00:00 Sho#04 I: 
+2022-03-30T21:56:26+00:00 Sho#04 I: law test_count_occ_reversed_same: 1000 relevant cases (1000 total)
+2022-03-30T21:56:26+00:00 Sho#04 I: 
+2022-03-30T21:56:26+00:00 Sho#04 I: Test public:3:test_count_occ_reversed_same is successful.
+2022-03-30T21:56:26+00:00 Sho#04 I: End test public:3:test_count_occ_reversed_same.
+2022-03-30T21:56:26+00:00 Sho#04 I: Start test public:12:test_int_max_inc.
+2022-03-30T21:56:26+00:00 Sho#04 I: 
+2022-03-30T21:56:26+00:00 Sho#04 I: law test_int_max_inc: 1000 relevant cases (1000 total)
+2022-03-30T21:56:26+00:00 Sho#04 I: 
+2022-03-30T21:56:26+00:00 Sho#04 I: Test public:12:test_int_max_inc is successful.
+2022-03-30T21:56:26+00:00 Sho#04 I: End test public:12:test_int_max_inc.

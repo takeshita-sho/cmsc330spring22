@@ -17,6 +17,10 @@ let uniq lst =
     rev (fold (fun xs x -> if contains_elem xs x then xs else x::xs) [] lst)
 
 let assoc_list lst = 
-    fold (fun xs x -> if contains_elem xs x then [xs; 0] else [x; (count_occ lst x)]::xs) [] lst
+    let unique = uniq lst in
+    let f xs x = xs@[(x, count_occ lst x)] in
+    fold f [] unique
 
-let ap fns args = failwith "unimplemented"
+(* Applies each function in fns to each argument in args in order, collecting all results in a single list. *)
+let ap fns args = 
+    fold (fun xs x -> xs@(map x args)) [] fns

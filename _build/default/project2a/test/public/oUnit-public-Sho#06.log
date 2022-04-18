@@ -1,3 +1,6 @@
-2022-03-05T15:27:12+00:00 Sho#06 I: Start test public:5:pow.
-2022-03-05T15:27:12+00:00 Sho#06 I: Test public:5:pow is successful.
-2022-03-05T15:27:12+00:00 Sho#06 I: End test public:5:pow.
+2022-03-30T21:56:20+00:00 Sho#06 I: Start test public:5:pow.
+2022-03-30T21:56:20+00:00 Sho#06 I: Test public:5:pow is successful.
+2022-03-30T21:56:20+00:00 Sho#06 I: End test public:5:pow.
+2022-03-30T21:56:20+00:00 Sho#06 I: Start test public:14:is_palindrome.
+2022-03-30T21:56:20+00:00 Sho#06 I: Test public:14:is_palindrome is successful.
+2022-03-30T21:56:20+00:00 Sho#06 I: End test public:14:is_palindrome.
