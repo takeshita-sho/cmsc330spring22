@@ -1,0 +1,39 @@
+2022-04-24T03:33:13+00:00 Sho#01 I: Start test public:0:public_nothing.
+2022-04-24T03:33:13+00:00 Sho#01 E: Test public:0:public_nothing exited with an error.
+2022-04-24T03:33:13+00:00 Sho#01 E: Failure("unimplemented") in test public:0:public_nothing.
+2022-04-24T03:33:13+00:00 Sho#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#01 E: Called from Dune__exe__Public.public_nothing in file "project4a/test/public/public.ml", line 9, characters 16-47
+2022-04-24T03:33:13+00:00 Sho#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#01 E: 
+2022-04-24T03:33:13+00:00 Sho#01 I: End test public:0:public_nothing.
+2022-04-24T03:33:13+00:00 Sho#01 I: Start test public:10:public_expr_sub1.
+2022-04-24T03:33:13+00:00 Sho#01 E: Test public:10:public_expr_sub1 exited with an error.
+2022-04-24T03:33:13+00:00 Sho#01 E: Failure("unimplemented") in test public:10:public_expr_sub1.
+2022-04-24T03:33:13+00:00 Sho#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#01 E: Called from Dune__exe__Public.public_expr_sub1 in file "project4a/test/public/public.ml", line 83, characters 16-77
+2022-04-24T03:33:13+00:00 Sho#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#01 E: 
+2022-04-24T03:33:13+00:00 Sho#01 I: End test public:10:public_expr_sub1.
+2022-04-24T03:33:13+00:00 Sho#01 I: Start test public:13:public_expr_simple_concat.
+2022-04-24T03:33:13+00:00 Sho#01 E: Test public:13:public_expr_simple_concat exited with an error.
+2022-04-24T03:33:13+00:00 Sho#01 E: Failure("unimplemented") in test public:13:public_expr_simple_concat.
+2022-04-24T03:33:13+00:00 Sho#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#01 E: Called from Dune__exe__Public.public_expr_simple_concat in file "project4a/test/public/public.ml", line 103, characters 16-67
+2022-04-24T03:33:13+00:00 Sho#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#01 E: 
+2022-04-24T03:33:13+00:00 Sho#01 I: End test public:13:public_expr_simple_concat.
+2022-04-24T03:33:13+00:00 Sho#01 I: Start test public:21:public_expr_single_if.
+2022-04-24T03:33:13+00:00 Sho#01 E: Test public:21:public_expr_single_if exited with an error.
+2022-04-24T03:33:13+00:00 Sho#01 E: Failure("unimplemented") in test public:21:public_expr_single_if.
+2022-04-24T03:33:13+00:00 Sho#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#01 E: Called from Dune__exe__Public.public_expr_single_if in file "project4a/test/public/public.ml", line 144, characters 16-73
+2022-04-24T03:33:13+00:00 Sho#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#01 E: 
+2022-04-24T03:33:13+00:00 Sho#01 I: End test public:21:public_expr_single_if.
+2022-04-24T03:33:13+00:00 Sho#01 I: Start test public:28:public_err_def_not_top_level.
+2022-04-24T03:33:13+00:00 Sho#01 E: Test public:28:public_err_def_not_top_level has failed.
+2022-04-24T03:33:13+00:00 Sho#01 E: Got Failure("unimplemented"), expected InvalidInputException in test public:28:public_err_def_not_top_level.
+2022-04-24T03:33:13+00:00 Sho#01 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-04-24T03:33:13+00:00 Sho#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#01 E: 
+2022-04-24T03:33:13+00:00 Sho#01 I: End test public:28:public_err_def_not_top_level.

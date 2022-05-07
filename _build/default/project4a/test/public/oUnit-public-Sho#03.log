@@ -1,0 +1,32 @@
+2022-04-24T03:33:13+00:00 Sho#03 I: Start test public:2:public_mutop_simple_def_and_let.
+2022-04-24T03:33:13+00:00 Sho#03 E: Test public:2:public_mutop_simple_def_and_let exited with an error.
+2022-04-24T03:33:13+00:00 Sho#03 E: Failure("unimplemented") in test public:2:public_mutop_simple_def_and_let.
+2022-04-24T03:33:13+00:00 Sho#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#03 E: Called from Dune__exe__Public.public_mutop_simple_def_and_let in file "project4a/test/public/public.ml", line 20, characters 16-83
+2022-04-24T03:33:13+00:00 Sho#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#03 E: 
+2022-04-24T03:33:13+00:00 Sho#03 I: End test public:2:public_mutop_simple_def_and_let.
+2022-04-24T03:33:13+00:00 Sho#03 I: Start test public:8:public_expr_minus_one.
+2022-04-24T03:33:13+00:00 Sho#03 E: Test public:8:public_expr_minus_one exited with an error.
+2022-04-24T03:33:13+00:00 Sho#03 E: Failure("unimplemented") in test public:8:public_expr_minus_one.
+2022-04-24T03:33:13+00:00 Sho#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#03 E: Called from Dune__exe__Public.public_expr_minus_one in file "project4a/test/public/public.ml", line 58, characters 16-60
+2022-04-24T03:33:13+00:00 Sho#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#03 E: 
+2022-04-24T03:33:13+00:00 Sho#03 I: End test public:8:public_expr_minus_one.
+2022-04-24T03:33:13+00:00 Sho#03 I: Start test public:15:public_expr_simple_mult.
+2022-04-24T03:33:13+00:00 Sho#03 E: Test public:15:public_expr_simple_mult exited with an error.
+2022-04-24T03:33:13+00:00 Sho#03 E: Failure("unimplemented") in test public:15:public_expr_simple_mult.
+2022-04-24T03:33:13+00:00 Sho#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#03 E: Called from Dune__exe__Public.public_expr_simple_mult in file "project4a/test/public/public.ml", line 113, characters 16-49
+2022-04-24T03:33:13+00:00 Sho#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#03 E: 
+2022-04-24T03:33:13+00:00 Sho#03 I: End test public:15:public_expr_simple_mult.
+2022-04-24T03:33:13+00:00 Sho#03 I: Start test public:24:public_expr_single_not.
+2022-04-24T03:33:13+00:00 Sho#03 E: Test public:24:public_expr_single_not exited with an error.
+2022-04-24T03:33:13+00:00 Sho#03 E: Failure("unimplemented") in test public:24:public_expr_single_not.
+2022-04-24T03:33:13+00:00 Sho#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#03 E: Called from Dune__exe__Public.public_expr_single_not in file "project4a/test/public/public.ml", line 159, characters 16-52
+2022-04-24T03:33:13+00:00 Sho#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#03 E: 
+2022-04-24T03:33:13+00:00 Sho#03 I: End test public:24:public_expr_single_not.

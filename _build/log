@@ -1,10 +1,10 @@
-# dune exec bin/viz.bc
+# dune utop src
 # OCAMLPARAM: unset
 # Workspace root: /mnt/c/WINDOWS/system32/cmsc330spring22
-$ /usr/bin/nproc > /tmp/dunedd7e8f.output 2> /dev/null
+$ /usr/bin/nproc > /tmp/dune0cfa26.output 2> /dev/null
 # Auto-detected concurrency: 16
 # disable binary cache
-$ /home/sho/.opam/4.12.0/bin/ocamlc.opt -config > /tmp/dune14ab6c.output
+$ /home/sho/.opam/4.12.0/bin/ocamlc.opt -config > /tmp/dune3263da.output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -29,15 +29,14 @@ $ /home/sho/.opam/4.12.0/bin/ocamlc.opt -config > /tmp/dune14ab6c.output
 #            "/mnt/c/WINDOWS/system32/cmsc330spring22/_build/default"
 #        ; "OCAMLFIND_IGNORE_DUPS_IN" :
 #            "/mnt/c/WINDOWS/system32/cmsc330spring22/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/mnt/c/WINDOWS/system32/cmsc330spring22/_build/install/default/lib"
 #        ; "OCAMLTOP_INCLUDE_PATH" :
 #            "/mnt/c/WINDOWS/system32/cmsc330spring22/_build/install/default/lib/toplevel"
 #        ; "OCAML_COLOR" : "always"
 #        ; "OPAMCOLOR" : "always"
 #        }
-#  ; findlib_path =
-#      [ External "/mnt/c/WINDOWS/system32/cmsc330spring22/project3/dep"
-#      ; External "/home/sho/.opam/4.12.0/lib"
-#      ]
+#  ; findlib_path = [ External "/home/sho/.opam/4.12.0/lib" ]
 #  ; arch_sixtyfour = true
 #  ; natdynlink_supported = true
 #  ; supports_shared_libraries = true
@@ -111,4 +110,7 @@ $ /home/sho/.opam/4.12.0/bin/ocamlc.opt -config > /tmp/dune14ab6c.output
 #      ; windows_unicode = false
 #      }
 #  }
-# Workspace root: /mnt/c/WINDOWS/system32/cmsc330spring22
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamldep.opt -modules -impl project4a/src/parser.ml) > _build/default/project4a/src/.p4a.objs/parser.ml.d
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-32-33-34-39 -g -bin-annot -I project4a/src/.p4a.objs/byte -intf-suffix .ml -no-alias-deps -opaque -open P4a -o project4a/src/.p4a.objs/byte/p4a__Parser.cmo -c -impl project4a/src/parser.ml)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-32-33-34-39 -g -a -o project4a/src/p4a.cma project4a/src/.p4a.objs/byte/p4a.cmo project4a/src/.p4a.objs/byte/p4a__TokenTypes.cmo project4a/src/.p4a.objs/byte/p4a__Lexer.cmo project4a/src/.p4a.objs/byte/p4a__MicroCamlTypes.cmo project4a/src/.p4a.objs/byte/p4a__Utils.cmo project4a/src/.p4a.objs/byte/p4a__Parser.cmo)
+$ (cd _build/default && /home/sho/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o project4a/src/.utop/utop.exe -output-complete-exe /home/sho/.opam/4.12.0/lib/ocaml/compiler-libs/ocamlcommon.cma /home/sho/.opam/4.12.0/lib/ocaml/compiler-libs/ocamlbytecomp.cma /home/sho/.opam/4.12.0/lib/ocaml/compiler-libs/ocamltoplevel.cma /home/sho/.opam/4.12.0/lib/findlib/findlib.cma /home/sho/.opam/4.12.0/lib/findlib/findlib_top.cma /home/sho/.opam/4.12.0/lib/result/result.cma /home/sho/.opam/4.12.0/lib/lwt/lwt.cma /home/sho/.opam/4.12.0/lib/ocaml/unix.cma -I /home/sho/.opam/4.12.0/lib/ocaml /home/sho/.opam/4.12.0/lib/ocaml/bigarray.cma -I /home/sho/.opam/4.12.0/lib/ocaml /home/sho/.opam/4.12.0/lib/mmap/mmap.cma /home/sho/.opam/4.12.0/lib/ocplib-endian/ocplib_endian.cma /home/sho/.opam/4.12.0/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /home/sho/.opam/4.12.0/lib/ocaml/threads/threads.cma -I /home/sho/.opam/4.12.0/lib/ocaml /home/sho/.opam/4.12.0/lib/lwt/unix/lwt_unix.cma -I /home/sho/.opam/4.12.0/lib/lwt/unix /home/sho/.opam/4.12.0/lib/react/react.cma /home/sho/.opam/4.12.0/lib/lwt_react/lwt_react.cma /home/sho/.opam/4.12.0/lib/camomile/default_config/camomileDefaultConfig.cma /home/sho/.opam/4.12.0/lib/camomile/library/camomileLibrary.cma /home/sho/.opam/4.12.0/lib/camomile/lib_default/camomileLibraryDefault.cma /home/sho/.opam/4.12.0/lib/camomile/dyn/camomileLibraryDyn.cma /home/sho/.opam/4.12.0/lib/camomile/camomile_yuge.cma /home/sho/.opam/4.12.0/lib/charInfo_width/charInfo_width.cma /home/sho/.opam/4.12.0/lib/zed/zed.cma /home/sho/.opam/4.12.0/lib/lwt_log/core/lwt_log_core.cma /home/sho/.opam/4.12.0/lib/lwt_log/lwt_log.cma /home/sho/.opam/4.12.0/lib/trie/trie.cma /home/sho/.opam/4.12.0/lib/mew/mew.cma /home/sho/.opam/4.12.0/lib/mew_vi/mew_vi.cma /home/sho/.opam/4.12.0/lib/lambda-term/lambda_term.cma -I /home/sho/.opam/4.12.0/lib/lambda-term /home/sho/.opam/4.12.0/lib/utop/uTop.cma /home/sho/.opam/4.12.0/lib/ocaml/str.cma -I /home/sho/.opam/4.12.0/lib/ocaml project4a/src/p4a.cma project4a/src/.utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)

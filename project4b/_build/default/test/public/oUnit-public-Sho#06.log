@@ -1,0 +1,9 @@
+2022-04-25T23:24:49+00:00 Sho#06 I: Start test public:5:public_expr_double_fun.
+2022-04-25T23:24:49+00:00 Sho#06 I: Test public:5:public_expr_double_fun is successful.
+2022-04-25T23:24:49+00:00 Sho#06 I: End test public:5:public_expr_double_fun.
+2022-04-25T23:24:49+00:00 Sho#06 I: Start test public:17:public_expr_single_bool.
+2022-04-25T23:24:49+00:00 Sho#06 I: Test public:17:public_expr_single_bool is successful.
+2022-04-25T23:24:49+00:00 Sho#06 I: End test public:17:public_expr_single_bool.
+2022-04-25T23:24:49+00:00 Sho#06 I: Start test public:25:public_expr_single_string.
+2022-04-25T23:24:49+00:00 Sho#06 I: Test public:25:public_expr_single_string is successful.
+2022-04-25T23:24:49+00:00 Sho#06 I: End test public:25:public_expr_single_string.

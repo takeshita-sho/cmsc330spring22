@@ -1,0 +1,12 @@
+2022-04-25T23:24:49+00:00 Sho#01 I: Start test public:0:public_nothing.
+2022-04-25T23:24:49+00:00 Sho#01 I: Test public:0:public_nothing is successful.
+2022-04-25T23:24:49+00:00 Sho#01 I: End test public:0:public_nothing.
+2022-04-25T23:24:49+00:00 Sho#01 I: Start test public:10:public_expr_simple_equal.
+2022-04-25T23:24:49+00:00 Sho#01 I: Test public:10:public_expr_simple_equal is successful.
+2022-04-25T23:24:49+00:00 Sho#01 I: End test public:10:public_expr_simple_equal.
+2022-04-25T23:24:49+00:00 Sho#01 I: Start test public:15:public_expr_simple_sum.
+2022-04-25T23:24:49+00:00 Sho#01 I: Test public:15:public_expr_simple_sum is successful.
+2022-04-25T23:24:49+00:00 Sho#01 I: End test public:15:public_expr_simple_sum.
+2022-04-25T23:24:49+00:00 Sho#01 I: Start test public:24:public_expr_single_or.
+2022-04-25T23:24:49+00:00 Sho#01 I: Test public:24:public_expr_single_or is successful.
+2022-04-25T23:24:49+00:00 Sho#01 I: End test public:24:public_expr_single_or.

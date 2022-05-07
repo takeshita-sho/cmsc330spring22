@@ -1,0 +1,24 @@
+2022-04-24T03:33:13+00:00 Sho#06 I: Start test public:5:public_expr_double_fun.
+2022-04-24T03:33:13+00:00 Sho#06 E: Test public:5:public_expr_double_fun exited with an error.
+2022-04-24T03:33:13+00:00 Sho#06 E: Failure("unimplemented") in test public:5:public_expr_double_fun.
+2022-04-24T03:33:13+00:00 Sho#06 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#06 E: Called from Dune__exe__Public.public_expr_double_fun in file "project4a/test/public/public.ml", line 38, characters 16-67
+2022-04-24T03:33:13+00:00 Sho#06 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#06 E: 
+2022-04-24T03:33:13+00:00 Sho#06 I: End test public:5:public_expr_double_fun.
+2022-04-24T03:33:13+00:00 Sho#06 I: Start test public:18:public_expr_single_and.
+2022-04-24T03:33:13+00:00 Sho#06 E: Test public:18:public_expr_single_and exited with an error.
+2022-04-24T03:33:13+00:00 Sho#06 E: Failure("unimplemented") in test public:18:public_expr_single_and.
+2022-04-24T03:33:13+00:00 Sho#06 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#06 E: Called from Dune__exe__Public.public_expr_single_and in file "project4a/test/public/public.ml", line 128, characters 16-56
+2022-04-24T03:33:13+00:00 Sho#06 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#06 E: 
+2022-04-24T03:33:13+00:00 Sho#06 I: End test public:18:public_expr_single_and.
+2022-04-24T03:33:13+00:00 Sho#06 I: Start test public:27:public_expr_single_string.
+2022-04-24T03:33:13+00:00 Sho#06 E: Test public:27:public_expr_single_string exited with an error.
+2022-04-24T03:33:13+00:00 Sho#06 E: Failure("unimplemented") in test public:27:public_expr_single_string.
+2022-04-24T03:33:13+00:00 Sho#06 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#06 E: Called from Dune__exe__Public.public_expr_single_string in file "project4a/test/public/public.ml", line 174, characters 16-60
+2022-04-24T03:33:13+00:00 Sho#06 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#06 E: 
+2022-04-24T03:33:13+00:00 Sho#06 I: End test public:27:public_expr_single_string.

@@ -1,0 +1,9 @@
+2022-04-25T23:24:49+00:00 Sho#03 I: Start test public:2:public_mutop_simple_def_and_let.
+2022-04-25T23:24:49+00:00 Sho#03 I: Test public:2:public_mutop_simple_def_and_let is successful.
+2022-04-25T23:24:49+00:00 Sho#03 I: End test public:2:public_mutop_simple_def_and_let.
+2022-04-25T23:24:49+00:00 Sho#03 I: Start test public:14:public_expr_simple_sub.
+2022-04-25T23:24:49+00:00 Sho#03 I: Test public:14:public_expr_simple_sub is successful.
+2022-04-25T23:24:49+00:00 Sho#03 I: End test public:14:public_expr_simple_sub.
+2022-04-25T23:24:49+00:00 Sho#03 I: Start test public:20:public_expr_single_let.
+2022-04-25T23:24:49+00:00 Sho#03 I: Test public:20:public_expr_single_let is successful.
+2022-04-25T23:24:49+00:00 Sho#03 I: End test public:20:public_expr_single_let.

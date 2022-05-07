@@ -1,0 +1,24 @@
+2022-04-24T03:33:13+00:00 Sho#05 I: Start test public:4:public_expr_apply.
+2022-04-24T03:33:13+00:00 Sho#05 E: Test public:4:public_expr_apply exited with an error.
+2022-04-24T03:33:13+00:00 Sho#05 E: Failure("unimplemented") in test public:4:public_expr_apply.
+2022-04-24T03:33:13+00:00 Sho#05 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#05 E: Called from Dune__exe__Public.public_expr_apply in file "project4a/test/public/public.ml", line 33, characters 16-124
+2022-04-24T03:33:13+00:00 Sho#05 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#05 E: 
+2022-04-24T03:33:13+00:00 Sho#05 I: End test public:4:public_expr_apply.
+2022-04-24T03:33:13+00:00 Sho#05 I: Start test public:16:public_expr_simple_sub.
+2022-04-24T03:33:13+00:00 Sho#05 E: Test public:16:public_expr_simple_sub exited with an error.
+2022-04-24T03:33:13+00:00 Sho#05 E: Failure("unimplemented") in test public:16:public_expr_simple_sub.
+2022-04-24T03:33:13+00:00 Sho#05 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#05 E: Called from Dune__exe__Public.public_expr_simple_sum in file "project4a/test/public/public.ml", line 123, characters 16-49
+2022-04-24T03:33:13+00:00 Sho#05 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#05 E: 
+2022-04-24T03:33:13+00:00 Sho#05 I: End test public:16:public_expr_simple_sub.
+2022-04-24T03:33:13+00:00 Sho#05 I: Start test public:23:public_expr_single_notequal.
+2022-04-24T03:33:13+00:00 Sho#05 E: Test public:23:public_expr_single_notequal exited with an error.
+2022-04-24T03:33:13+00:00 Sho#05 E: Failure("unimplemented") in test public:23:public_expr_single_notequal.
+2022-04-24T03:33:13+00:00 Sho#05 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-24T03:33:13+00:00 Sho#05 E: Called from Dune__exe__Public.public_expr_single_notequal in file "project4a/test/public/public.ml", line 154, characters 16-50
+2022-04-24T03:33:13+00:00 Sho#05 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-24T03:33:13+00:00 Sho#05 E: 
+2022-04-24T03:33:13+00:00 Sho#05 I: End test public:23:public_expr_single_notequal.
